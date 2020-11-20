@@ -6,14 +6,6 @@ header.container {
   z-index: 10000;
 }
 
-header.container:before {
-  content: url('../../images/Group 45@2x.png');
-  position: absolute;
-  left: -28rem;
-  top: -29rem;
-  overflow: hidden;
-}
-
 a.navbar-brand img {
   width: 8rem;
 }
@@ -36,8 +28,20 @@ button.contactBtn {
   font-size: 14px;
   font-weight: 400;
   padding: 0.65rem 1.8rem;
+  transition: 0.6s ease;
   background: linear-gradient(to left, #0db9de, #1edcb4);
 }
 button.contactBtn:focus {
   outline: none;
+}
+button.contactBtn:hover {
+  background: transparent;
+  color: black;
+  box-shadow: 0px 0px 15px 2px #1edcb4;
+}
+@media screen and (max-width: 992px) {
+  .ml-auto.align-items-center.navbar-nav {
+    background: white !important;
+    padding: 2rem 0;
+  }
 }

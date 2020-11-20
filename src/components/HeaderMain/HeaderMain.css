@@ -1,23 +1,14 @@
 .header-main {
   padding-top: 10rem;
-  background-image: url('../../images/Path 76.png');
+  background-image: url('../../images/bannerBg.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-size: contain;
+  background-size: cover;
+  background-size: cover;
   background-position-x: left;
-  background-origin: content-box;
-  overflow: hidden;
 }
-.header-main:before {
-  content: url('../../images/Group 46@2x.png');
-  position: absolute;
-  transform: rotate(350deg);
-  top: -61rem;
-  left: 8rem;
-  overflow: hidden;
-}
+
 .leftBanner h1 {
-  font-size: 76px;
+  font-size: 5rem;
   width: 20rem;
   line-height: 70px;
   font-weight: 500;
@@ -31,4 +22,17 @@
   line-height: 25px;
   color: gray;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  .col-md-6.d-flex.flex-column.justify-content-center.align-items-start {
+    padding-left: 1rem !important;
+  }
+  .leftBanner h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+  .leftBanner p {
+    width: 100%;
+  }
 }

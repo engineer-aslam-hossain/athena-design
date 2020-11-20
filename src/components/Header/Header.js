@@ -11,7 +11,7 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='ml-auto d-block'>
+          <Nav className='ml-auto align-items-center'>
             <a href='#home' className='active'>
               Home
             </a>

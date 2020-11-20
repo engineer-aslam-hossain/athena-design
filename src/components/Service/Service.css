@@ -11,11 +11,10 @@
   line-height: 25px;
   margin-bottom: 2rem;
 }
-
-section.services:before {
-  content: url('../../images/Group 46@2x.png');
-  position: absolute;
-  transform: rotate(353deg);
-  top: 41rem;
-  left: 30rem;
+section.services {
+  padding: 5rem 0;
+  background-image: url('../../images/serviceBg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
 }

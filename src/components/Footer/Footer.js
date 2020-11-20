@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
           <div className='col-md-8 d-flex flex-wrap'>
             {fakeFooterData.map(singleData => (
-              <div className='col-md-4' key={singleData.id}>
+              <div className='col-md-4 rightFooterDiv' key={singleData.id}>
                 {singleData.details.map((data, index) => (
                   <p key={index} className='footerRightP'>
                     {data}
