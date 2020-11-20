@@ -1,0 +1,43 @@
+header.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+}
+
+header.container:before {
+  content: url('../../images/Group 45@2x.png');
+  position: absolute;
+  left: -28rem;
+  top: -29rem;
+  overflow: hidden;
+}
+
+a.navbar-brand img {
+  width: 8rem;
+}
+.ml-auto.navbar-nav a {
+  color: black;
+  font-size: 14px;
+  margin-right: 2rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.ml-auto.navbar-nav a.active {
+  font-weight: 600;
+}
+button.contactBtn {
+  border-radius: 22px 0px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.65rem 1.8rem;
+  background: linear-gradient(to left, #0db9de, #1edcb4);
+}
+button.contactBtn:focus {
+  outline: none;
+}

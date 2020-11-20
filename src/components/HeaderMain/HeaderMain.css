@@ -1,0 +1,34 @@
+.header-main {
+  padding-top: 10rem;
+  background-image: url('../../images/Path 76.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: contain;
+  background-position-x: left;
+  background-origin: content-box;
+  overflow: hidden;
+}
+.header-main:before {
+  content: url('../../images/Group 46@2x.png');
+  position: absolute;
+  transform: rotate(350deg);
+  top: -61rem;
+  left: 8rem;
+  overflow: hidden;
+}
+.leftBanner h1 {
+  font-size: 76px;
+  width: 20rem;
+  line-height: 70px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 2rem;
+  font-family: 'Yeseva One', cursive;
+}
+.leftBanner p {
+  font-size: 12px;
+  width: 25rem;
+  line-height: 25px;
+  color: gray;
+  margin-bottom: 2rem;
+}
